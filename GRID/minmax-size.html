@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Grid vs Flexbox</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-rows: 200px 400px;
+            grid-template-columns: 300px minmax(500px, 800px);
+            gap: 2px
+        }
+
+        .container>* {
+            background-color: pink;
+            padding: 10px;
+            border: 5px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>MIN-MAX</h1>
+    <div class="container">
+        <div class="one">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem repudiandae quam, sequi tenetur
+                nihil quod qui amet nobis distinctio vitae a recusandae repellat repellendus commodi eos ratione
+                mollitia assumenda?</p>
+        </div>
+
+        <div class="two">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem repudiandae quam, sequi tenetur
+                nihil quod qui amet nobis distinctio vitae a recusandae repellat repellendus commodi eos ratione
+                mollitia assumenda?</p>
+        </div>
+        <div class="three">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem repudiandae quam, sequi tenetur
+                nihil quod qui amet nobis distinctio vitae a recusandae repellat repellendus commodi eos ratione
+                mollitia assumenda?</p>
+        </div>
+        <div class="four">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem repudiandae quam, sequi tenetur
+                nihil quod qui amet nobis distinctio vitae a recusandae repellat repellendus commodi eos ratione
+                mollitia assumenda?</p>
+        </div>
+    </div>
+    <br>
+    <hr> <br>
+
+</body>
+
+</html>

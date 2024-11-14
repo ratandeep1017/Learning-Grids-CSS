@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Chessboard</title>
+  <style>
+    .container {
+      width: 800px;
+      border: 15px solid #776e6e;
+
+      display: grid;
+      /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+      /* ---------------OR----------------------- */
+      /* grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(8, 1fr);  */
+      /* ---------------OR----------------------- */
+      grid-template: repeat(8, 1fr)/repeat(8, 1fr);
+    }
+
+    /* to align the numbers in center */
+    .container>* {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    .white {
+      background-color: #f0d9b5;
+      width: 100px;
+      height: 100px;
+      color: #b58863
+    }
+
+    .black {
+      background-color: #b58863;
+      color: #f0d9b5;
+
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="white">1</div>
+    <div class="black">2</div>
+    <div class="white">3</div>
+    <div class="black">4</div>
+    <div class="white">5</div>
+    <div class="black">6</div>
+    <div class="white">7</div>
+    <div class="black">8</div>
+
+
+    <div class="black">2</div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+
+
+
+    <div class="white">3</div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="black">4</div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="white">5</div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="black">6</div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="white">7</div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="black">8</div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+  </div>
+</body>
+
+</html>
